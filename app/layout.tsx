@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "拾光 | 技术札记",
+  title: "chenjinsheng's letter",
   description: "技术札记 · 思考与记录",
 };
 
@@ -24,8 +24,8 @@ export default function RootLayout({
       <body>
         <div className="container">
           <header>
-            <h1 className="logo">拾光</h1>
-            <p className="tagline">技术札记 · 思考与记录</p>
+            <h1 className="logo">chenjinsheng</h1>
+            <p className="tagline">Code & Thoughts</p>
           </header>
 
           <nav>
@@ -37,7 +37,7 @@ export default function RootLayout({
           {children}
 
           <footer>
-            <p>© 2026 拾光 · 用心记录技术成长</p>
+            <p>© 2026 chenjinsheng's letter</p>
           </footer>
         </div>
       </body>

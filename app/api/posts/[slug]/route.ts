@@ -3,7 +3,7 @@ import { savePost, deletePost, getPostBySlug } from "@/lib/posts";
 
 export async function GET(
   request: NextRequest,
-  { params } Promise<{ slug: { params:: string }> }
+  { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
   try {
